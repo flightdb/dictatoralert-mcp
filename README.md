@@ -9,7 +9,7 @@ Ask in plain language: *"Where has Lukashenko's plane flown this year?"* or *"Wh
 ## Connect
 
 ```
-https://flightdb.org/mcp
+https://flightdb.org/mcp/dictatoralert
 ```
 
 Add this URL as a custom MCP connector. Sign in with Google when prompted.
@@ -96,7 +96,7 @@ Add to your MCP client config (Cursor, Claude Desktop, Windsurf, etc.):
 {
   "mcpServers": {
     "dictatoralert": {
-      "url": "https://flightdb.org/mcp"
+      "url": "https://flightdb.org/mcp/dictatoralert"
     }
   }
 }
